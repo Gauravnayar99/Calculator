@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #4b79a2;
+}
+.cal{
+    height: 300px;
+    width: 250px;
+    background: #000;
+    border: 2px solid  wheat;
+    margin-top: 5rem;
+}
+.screen{
+    height: 50px;
+    width: 100%;
+    font-size: 35px;
+    background: #000;
+    color: aliceblue;
+    border: 2px solid  wheat;
+}
+.num{
+    height: 30px;
+    width: 40px;
+    margin: 1px 4px;
+    background: #000;
+    color: aliceblue;
+    border: 2px solid  wheat;
+    border-radius: 10%;
+}
+.cover{
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
